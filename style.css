@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.navbar{
+    padding: 0.8rem 4rem;
+    background-color: rgb(8, 8, 8);
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+}
+body > header > nav > a{
+    color : rgb(223 9 216)!important;
+    font-weight: 900;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.01rem;
+    padding: 0 1.5rem;
+    transition: 0.6s ease;
+    
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active{
+    color: rgb(223 9 216);
+    border-bottom: 1px solid white;
+}
+.signin{
+    background-color: rgb(223 9 216);
+    border-radius: 1rem;
+}
+.hero{
+    background-color: black;
+    color: white;
+    padding: 4rem .2rem;
+}
+
+.heroContent{
+    padding: 2rem;
+}
+.heroContent h6{
+    color: rgb(223 9 216);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.heroContent h2{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.heroContent .getStarted{
+    background-color: rgb(223 9 216);
+    margin-top: .5rem;
+    border-radius: 1rem;
+
+}
+.heroImage img{
+    border-bottom: 60px groove rgb(223 9 216);
+    border-radius: 50%;
+}
+.about{
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+}
+.about .readMore{
+    background-color: black;
+    color: white;
+    margin-top: .5rem;
+    border-radius: 1rem;
+
+}
+.about img{
+    border-radius: 50%;
+}
+.services{
+    background-color: black;
+    padding: 8rem 2rem;
+}
+.services .card{
+    margin: 1rem .5rem;
+    text-align: center;
+    padding: .5rem 2rem;
+}
+.services h5, a{
+    font-weight: 900;
+    text-decoration: none !important;
+    color: rgb(223 9 216);
+}
+.joinNow{
+    padding: 4rem 1rem;
+}
+.joinNow .join{
+    background-color: rgb(223 9 216);
+}
+.joinImage img{
+    border-radius: 20%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2rem 1rem;
+}
